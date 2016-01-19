@@ -1,0 +1,84 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url("beryl.jpg");
+    background-image: url("deeply.jpg");
+    background-size: cover;
+
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.25s ease;
+}
+
+a:hover {
+    color: #3e64c9;
+}
+
+#wellcome {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    padding: 140px 0 0 0 ;
+    color: #e5e5e5;
+}
+
+#date {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    padding: 10px 0 0 0 ;
+    color: #e5e5e5;
+}
+
+.links-container{
+    background-color: rgba(11, 10, 10, 0.66);
+    padding: 20px;
+    margin: 40px 120px;
+    border-radius: 10px;
+    font-family: 'Source Code Pro';
+    color: #fff;
+}
+
+.link {
+    display: flex;
+    padding: 20px;
+}
+
+.left {
+    display: flex;
+    background: rgba(255, 255, 255, 0.08);
+    flex: 0 0 180px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px 0 0 10px;
+}
+
+.left {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.right {
+    background: rgba(255, 255, 255, 0.31);
+    flex: 1 1 auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 0 10px 10px 0;
+
+}
+
+.right ul li {
+    display: inline;
+    padding: 0 10px;
+    margin-left: 10px
+}
