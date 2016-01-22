@@ -48,6 +48,7 @@ a:hover {
 /*    padding: 80px;*/
     box-shadow: 0 0 50px #333;
     transition: all 0.5s ease;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 
 .btn-34 {
@@ -88,7 +89,6 @@ a:hover {
 .btn-34 i, .btn-58 i, .btn-misc i {
     font-size: 3.5em;
     padding-top: 30px;
-    
 }
 
 #wellcome {
