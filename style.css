@@ -45,16 +45,17 @@ a:hover {
     border: 8px solid #ecf0f1;
     text-align: center;
     margin: 80px 40px;
+/*    padding: 80px;*/
     box-shadow: 0 0 50px #333;
     transition: all 0.5s ease;
 }
 
 .btn-34 {
-    background: #8e44ad;
+    background: #2980b9;
 }
 
 .btn-34:hover {
-    background: #9b59b6;
+    background: #3498db;
 }
 
 .btn-58 {
