@@ -5,7 +5,8 @@ html {
 
 body {
     background-image: url("beryl.jpg");
-    background-image: url("deeply.jpg");
+/*    background-image: url("deeply.jpg");*/
+/*    background: #2c3e50;*/
     background-size: cover;
     height: 100%;
 
@@ -36,48 +37,54 @@ a:hover {
 }
 
 
-.btn-34, .btn-58 {
+.btn-34, .btn-58, .btn-misc {
     color: white;
     height: 180px;
     width: 180px;
     border-radius: 50%;
     border: 8px solid #ecf0f1;
     text-align: center;
-    margin: 80px;
+    margin: 80px 40px;
     box-shadow: 0 0 50px #333;
     transition: all 0.5s ease;
 }
 
 .btn-34 {
-    background: #2980b9;
-}
-
-.btn-58 {
-    background: #e74c3c;
+    background: #8e44ad;
 }
 
 .btn-34:hover {
-    background: #3f91c7;
+    background: #9b59b6;
+}
+
+.btn-58 {
+    background: #27ae60;
 }
 
 .btn-58:hover {
-    background: #ef6052;
+    background: #2ecc71;
 }
 
-.btn-34:hover, .btn-58:hover {
+.btn-misc {
+    background: #c0392b;
+}
+
+.btn-misc:hover {
+    background: #e74c3c;
+}
+
+.btn-34:hover, .btn-58:hover, .btn-misc:hover {
     box-shadow: 0 0 50px #FFF;
-/*    height: 190px;*/
-    width: 220px;
 }
 
-.btn-34 p, .btn-58 p {
+.btn-34 p, .btn-58 p, .btn-misc p {
     padding-top: 10px;
     font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    font-size: 2em;
+    font-weight: 400;
+    font-size: 1.6em;
 }
 
-.btn-34 i, .btn-58 i {
+.btn-34 i, .btn-58 i, .btn-misc i {
     font-size: 3.5em;
     padding-top: 30px;
     
